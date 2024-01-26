@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+/* Style the individual footer columns */
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the newsletter form */
+.footer-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-column button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the button */
+.footer-column button[type="submit"]:hover {
+    background-color: #555;
+    color: #fff;
+}
